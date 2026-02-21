@@ -1,0 +1,17 @@
+{
+  "name": "voicebite-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node server.local.js",
+    "start": "node server.local.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^4.19.2",
+    "mongoose": "^9.1.6"
+  }
+}
